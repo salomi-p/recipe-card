@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+}
+
+.recipe-container {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(252, 182, 159, 0.3);
+  width: 350px;
+  margin: 20px auto;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.recipe-header {
+  background: linear-gradient(135deg, #ff8a80 0%, #ff5722 100%);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+.recipe-header h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+.recipe-header section {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.recipe-details {
+  padding: 1.5rem;
+}
+
+.recipe-details p {
+  color: #2d3748;
+  margin: 0.6rem 0;
+  font-size: 1rem;
+}
+.recipe-details p:nth-of-type(3) {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #b23a48;
+  font-family: "Courier New", monospace;
+}
+
+.recipe-footer {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  text-align: center;
+}
+
+.recipe-footer small {
+  color: #4a5568;
+  font-style: italic;
+}
+.logo {
+  height: 150px;
+  width: 200px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recard {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(252, 182, 159, 0.3);
+  max-width: 400px;
+  margin: 20px auto;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.MainParent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.mainhead {
+  color: #fcb69f;
+  text-align: center;
+  background-color: #ff5722;
+  height: 50px;
+  font-weight: 700px;
+  font-size: 50px;
+}
+.foodimg {
+  height: 200px;
+  width: 300px;
+}
